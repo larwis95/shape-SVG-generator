@@ -1,7 +1,7 @@
-const shapes = require('./libs/shapes');
+const {Shape, Circle, Triangle, Square} = require('./libs/shapes');
 const inquirer = require('inquirer');
 const readline = require('readline');
-const {Shape, Circle, Triangle, Square} = shapes;
+
 
 function main() {
 
