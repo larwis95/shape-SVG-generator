@@ -1,3 +1,4 @@
+// Array to hold our prompt's. Includes the questions, type, message, and a function to validate the response.
 const questions = [
     {
         type: 'input',

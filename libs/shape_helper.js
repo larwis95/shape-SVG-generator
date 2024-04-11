@@ -1,5 +1,6 @@
 const {Shape, Circle, Triangle, Square} = require('../libs/shapes');
 
+// Function to create a new class based on the shape the user chose.
 function pickShape(shape) {
     switch (shape) {
 

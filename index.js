@@ -5,7 +5,8 @@ const questions = require('./libs/questions')
 const pickShape = require('./libs/shape_helper')
 const createSVG = require('./libs/createSVG');
 
-
+//async function to call our prompts on startup, uses the prompt inputs to create a new shape object from our class, and sets its colors for text and shape, as well as text. 
+// Then writes it to an SVG file.
 async function main() {
     const data = await inquirer.prompt(questions)
     console.log(data);

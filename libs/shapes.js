@@ -1,3 +1,4 @@
+// Intial shape class, passes its methods through inheritance to Circle, Triangle, and Square classes.
 class Shape {
     
     render() {
@@ -17,6 +18,7 @@ class Shape {
     }
 };
 
+//Each shape class overides the main Shape class render method with their own, allowing us to generate different SVG markup for each type of shape.
 class Circle extends Shape {
 
     render() {

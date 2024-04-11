@@ -1,5 +1,6 @@
 const {Shape, Circle, Triangle, Square} = require('../libs/shapes');
 
+// Unit test for each shape class's render method. Will pass if the input matches the output.
 describe('Shapes', () => {
 
     describe('Circle', () => {
