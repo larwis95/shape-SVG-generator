@@ -49,7 +49,7 @@ class Square extends Shape {
 
         return `
 <svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-    <rect x="75" y="33" height="150"  fill="${this.color}"/>
+    <rect x="75" y="33" height="150" width="150" fill="${this.color}"/>
     <text x="150" y="125" font-size="50" text-anchor ="middle" fill="${this.textColor}" stroke="black">${this.text}</text>
 </svg>
 `;
