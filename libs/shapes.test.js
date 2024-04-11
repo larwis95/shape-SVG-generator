@@ -4,7 +4,10 @@ describe('Shapes', () => {
 
     describe('Circle', () => {
         it('The render method should return the correct sting based on input', () => {
-            const shape = new Circle('blue', 'SVG')
+            const shape = new Circle()
+            shape.setColor('blue');
+            shape.setText('SVG');
+            shape.setTextColor('white');
             const results = shape.render();
             expect(results).toEqual(`
 <svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
@@ -17,7 +20,10 @@ describe('Shapes', () => {
 
     describe('Triangle', () => {
         it('The render method should return the correct string based on inputs', () => {
-            const shape = new Triangle('blue', 'SVG')
+            const shape = new Triangle()
+            shape.setColor('blue');
+            shape.setText('SVG');
+            shape.setTextColor('white');
             const results = shape.render();
             expect(results).toEqual(`
 <svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
@@ -30,7 +36,10 @@ describe('Shapes', () => {
 
     describe('Square', () => {
         it('The render method should return the correct string based on inputs', () => {
-            const shape = new Square('blue', 'SVG')
+            const shape = new Square()
+            shape.setColor('blue');
+            shape.setText('SVG');
+            shape.setTextColor('white');
             const results = shape.render();
             expect(results).toEqual(`
 <svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
