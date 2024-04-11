@@ -9,7 +9,6 @@ const createSVG = require('./libs/createSVG');
 // Then writes it to an SVG file.
 async function main() {
     const data = await inquirer.prompt(questions)
-    console.log(data);
     const shape = pickShape(data.shape);
     shape.setText(data.text);
     shape.setColor(data.shapecolor);
